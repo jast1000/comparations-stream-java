@@ -14,8 +14,6 @@ public class Student {
     private String city;
     private String address;
     private String phoneNumber;
-
-    private transient String jsonData; 
     
     public Student() {
     }
@@ -66,14 +64,6 @@ public class Student {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
-    }
-
-    public String getJsonData() {
-        return jsonData;
-    }
-
-    public void setJsonData(String jsonData) {
-        this.jsonData = jsonData;
     }
 
     @Override
